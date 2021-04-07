@@ -1,0 +1,55 @@
+@import "./Header.css";
+
+html{
+  height: 100%;
+}
+
+ body{
+  background-image: url("../Images/main.jpeg");
+       background-repeat: no-repeat;
+       background-position: center;
+       height: 100%;
+       background-size: cover;
+       
+ }
+     
+
+ .text{
+  color: rgb(64, 71, 69);
+    
+    text-align: left;
+    
+    
+    margin-right: 20%;
+    position: absolute;
+    top:150px;
+    border-radius: 1%;
+
+   }
+ 
+image{
+  border-image: auto;
+}
+.textt{
+  text-align:center;
+  margin-left: 30px;
+  font-style: times;
+  font-size: 22px;
+
+}
+.home-content {
+  background: linear-gradient(
+          rgba(255, 255, 255, 0.35),
+          rgba(255, 255, 255, 0.35)
+      ),
+      url(../Images/main.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  min-height: 80vh;
+}
+
+.home-content .content {
+  padding: 1em;
+  text-align: center;
+  font-size: larger;
+  font-style: times;
+}

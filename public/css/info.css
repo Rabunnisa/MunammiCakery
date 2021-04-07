@@ -1,0 +1,46 @@
+@import "./Header.css";
+
+
+body{
+  /* background-image: url("../images/BackgroundImage.jpeg"); */
+  
+       background-repeat: no-repeat;
+       background-position: center;
+       height: 100%;
+
+  /* Center and scale the image nicely */
+  
+  background-size: cover;
+       
+      }
+     
+.text{
+color: rgb(64, 71, 69);
+  position: relative;
+ 
+  
+  margin-right: 40%;
+
+ }
+ 
+.item{
+  color: rgb(64, 71, 69);
+}
+.home-content {
+  background: linear-gradient(
+          rgba(255, 255, 255, 0.35),
+          rgba(255, 255, 255, 0.35)
+      ),
+      url(../Images/main.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  min-height: 80vh;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center
+}
+@import "./footer.css";
